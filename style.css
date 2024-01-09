@@ -1,0 +1,68 @@
+#music_player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.music-details {
+    text-align: center;
+}
+
+#player_controls {
+    text-align: center;
+}
+
+.music_times {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.controls {
+    width: 100%;
+}
+
+#player_controls {
+    flex: 1;
+   
+}
+
+.repeat {
+    flex-shrink: 0;
+    margin-left: auto;
+    width: 1.5rem;
+}
+.repeat-button.active{
+    background-color: #3468C0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
+
+.repeat-button{
+    background-color: #999;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
+.footer-controls,
+.audio_controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.audio_controls i {
+    font-size: 1.2rem;
+    margin: 2px;
+    color: #333;
+
+}
+
+.selected-music {
+    background-color: #86A7FC;
+    border: 1px solid #b3c8ff;
+}
+
